@@ -1,8 +1,12 @@
+import './App.css'
+import Navbar from './component/Navbar'
+import Main from './component/Main'
 
 function App() {
   return (
     <div className="App">
-      <h1>meme generator</h1>
+      <Navbar />
+      <Main />
     </div>
   );
 }
